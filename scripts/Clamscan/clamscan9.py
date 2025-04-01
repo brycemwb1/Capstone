@@ -7,6 +7,12 @@ def update_clamscan_db():
     print("Updating ClamAV virus database...")
     subprocess.run(['sudo', 'freshclam'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
+def is_valid_path(path):
+    """Checks if the given path is valid and exists."""
+    # Remove redundant slashes (e.g., '////' -> '/')
+    normalized_path = os.path.normpath(path)
+    return os.path.exists(normalized_path)
+
 def get_valid_path(prompt):
     """Continually asks the user for a valid file or folder path until a valid one is provided."""
     while True:
@@ -14,8 +20,13 @@ def get_valid_path(prompt):
         if path.lower() == 'q':
             print("Exiting the program.")
             exit()
-        if os.path.exists(path):
-            return path
+        
+        if not path.replace('/', ''):  # Reject input that is just slashes
+            print("Invalid path. Please enter a valid file or folder path.")
+            continue
+        
+        if is_valid_path(path):
+            return os.path.normpath(path)
         print("Invalid path. The file or folder does not exist. Please try again.")
 
 def get_valid_directory(prompt):
@@ -25,8 +36,13 @@ def get_valid_directory(prompt):
         if directory.lower() == 'q':
             print("Exiting the program.")
             exit()
+        
+        if not directory.replace('/', ''):  # Reject input that is just slashes
+            print("Invalid directory. Please enter a valid folder path.")
+            continue
+        
         if os.path.isdir(directory):
-            return directory
+            return os.path.normpath(directory)
         print("Invalid directory. Please enter a valid folder path.")
 
 def run_clamscan(path, report_dir):
@@ -57,6 +73,19 @@ if __name__ == "__main__":
     if start_scan != 'y':
         print("Exiting the program.")
         exit()
+
+    # Ask if the user wants an explanation of malware
+    while True:
+        explain_malware = input("Would you like to know what malware or a malicious file is? (y/n/q): ").strip().lower()
+        if explain_malware in ['y', 'n', 'q']:
+            break
+        print("Invalid input. Please enter 'y', 'n', or 'q'.")
+
+    if explain_malware == 'q':
+        print("Exiting the program.")
+        exit()
+    elif explain_malware == 'y':
+        print("\nMalware (short for 'malicious software') is any software designed to disrupt, damage, or gain unauthorized access to computer systems. Common types include viruses, worms, Trojans, ransomware, and spyware. Malicious files may contain harmful code that can execute actions without the user's consent, such as stealing data or encrypting files for ransom.\n")
 
     # Update ClamAV database
     update_clamscan_db()

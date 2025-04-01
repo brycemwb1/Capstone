@@ -1,0 +1,13 @@
+- Nikto v2.5.0/
++ Target Host: www.pokemoncenter.com
++ Target Port: 443
++ GET /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options: 
++ GET /: Uncommon header 'allowsitespect' found, with contents: true.
++ GET /: Uncommon header 'x-iinfo' found, with contents: 16-3684021-0 0NNN RT(1743033183463 51) q(0 -1 -1 -1) r(0 -1) B13(3,30037,0) U24.
++ GET /: Uncommon header 'showshippingpreferencepopup' found, with contents: en-ca.
++ GET /: The site uses TLS and the Strict-Transport-Security HTTP header is not defined. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security: 
++ GET /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/: 
++ GET /: Cookie visid_incap_2682446 created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /: Cookie incap_ses_1848_2682446 created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /: Cookie incap_ses_1848_2682446 created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET Hostname 'www.pokemoncenter.com' does not match certificate's names: pokemoncenter.com. See: https://cwe.mitre.org/data/definitions/297.html: 

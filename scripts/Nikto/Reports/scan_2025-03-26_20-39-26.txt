@@ -1,0 +1,439 @@
+- Nikto v2.5.0/
++ Target Host: www.pokemoncenter.com
++ Target Port: 443
++ GET /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options: 
++ GET /: Uncommon header 'showshippingpreferencepopup' found, with contents: en-ca.
++ GET /: Uncommon header 'x-iinfo' found, with contents: 61-405843563-0 NNNN RT(1743032512707 50) q(0 -1 -1 -1) r(0 -1) B12(14,0,0) U24.
++ GET /: Uncommon header 'allowsitespect' found, with contents: true.
++ GET /: The site uses TLS and the Strict-Transport-Security HTTP header is not defined. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security: 
++ GET /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/: 
++ GET /: Cookie visid_incap_2682446 created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /: Cookie incap_ses_1848_2682446 created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /: Cookie incap_ses_1848_2682446 created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /mXDFwKAb.txt: Retrieved via header: 1.1 3ec1da3c3a305aac0aa854f904917156.cloudfront.net (CloudFront).
++ GET /mXDFwKAb.txt: Incapsula WAF is in use. See: https://www.sumasoft.com/incapsula-cloud-based-web-application-firewall-waf/: 
++ GET /mXDFwKAb.txt: Uncommon header 'rtss' found, with contents: 2-10-80.
++ GET /mXDFwKAb.txt: Uncommon header 'charset' found, with contents: utf-8.
++ GET /mXDFwKAb.txt: Uncommon header 'accept-ch' found, with contents: Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory.
++ GET /mXDFwKAb.txt: Uncommon header 'x-dd-b' found, with contents: 2.
++ GET /mXDFwKAb.txt: Uncommon header 'x-datadome-cid' found, with contents: AHrlqAAAAAMAgUwSszPz50QAnCL0Rg==.
++ GET /mXDFwKAb.txt: Uncommon header 'x-datadome' found, with contents: protected.
++ GET /mXDFwKAb.txt: Cookie ss_qualtrics_tcruk0424 created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /mXDFwKAb.txt: Cookie ss_qualtrics_tcruk0424 created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /mXDFwKAb.txt: Cookie ss_qualtrics_tcr0424 created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /mXDFwKAb.txt: Cookie ss_qualtrics_tcr0424 created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /mXDFwKAb.txt: Cookie datadome created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /mXDFwKAb.txt: Cookie nlbi_2682446 created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /mXDFwKAb.js: Retrieved x-powered-by header: Next.js.
++ GET /mXDFwKAb.js: Uncommon header 'x-amzn-remapped-content-length' found, with contents: 472247.
++ GET /mXDFwKAb.js: Uncommon header 'x-amz-apigw-id' found, with contents: IDuO3HwWvHcEgzg=.
++ GET /mXDFwKAb.js: Uncommon header 'x-amzn-trace-id' found, with contents: Root=1-67e490c5-128ce7367ff8cd455b6579e6;Parent=68065c643a1ed0a3;Sampled=0;Lineage=1:6723d088:0.
++ GET /mXDFwKAb.js: Uncommon header 'x-amzn-requestid' found, with contents: aa469419-fe8e-4169-8100-92526ef7c220.
++ GET /mXDFwKAb.js: Uncommon header 'x-amzn-remapped-connection' found, with contents: keep-alive.
++ GET /mXDFwKAb.js: Uncommon header 'x-amzn-remapped-date' found, with contents: Wed, 26 Mar 2025 23:41:57 GMT.
++ GET : Server banner changed from 'CloudFront' to 'AmazonS3'.
++ GET /robots.txt: Uncommon header 'x-amz-server-side-encryption' found, with contents: AES256.
++ GET /robots.txt: Cookie SSID created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /robots.txt: Cookie SSID created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /robots.txt: Cookie SSSC created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /robots.txt: Cookie SSSC created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /robots.txt: Cookie SSRT created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /robots.txt: Cookie SSRT created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET Hostname 'www.pokemoncenter.com' does not match certificate's names: pokemoncenter.com. See: https://cwe.mitre.org/data/definitions/297.html: 
++ GET /: The Content-Encoding header is set to "deflate" which may mean that the server is vulnerable to the BREACH attack. See: http://breachattack.com/: 
++ GET Multiple index files found: /index.php4, /index.shtml, /index.cgi, /default.aspx, /index.htm, /index.jhtml, /index.asp, /index.html, /index.pl, /default.asp, /index.php5, /index.jsp, /index.php7, /index.aspx, /index.php, /index.xml, /default.htm, /index.cfm, /index.do, /index.php3.
++ HEAD /pokemoncenter.com.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /archive.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /archive.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /database.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncentercom.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.com.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.com.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.com.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /site.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /45.60.131.52.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /archive.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.com.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /site.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.com.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /backup.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncenter.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /site.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /archive.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /site.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /45.60.131.52.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /database.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /backup.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /archive.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncentercom.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /site.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /backup.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.com.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /45.60.131.52.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /backup.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.com.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncentercom.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /com.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /com.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /archive.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /45.60.131.52.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /com.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /database.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /45.60.131.52.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.com.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /backup.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /45.60.131.52.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /45.60.131.52.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www_pokemoncenter_com.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncenter.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncenter.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /dump.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /database.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncenter.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /database.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.com.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /com.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.com.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncentercom.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncenter.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /backup.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncentercom.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /dump.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /site.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncenter.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /com.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /com.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /dump.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.com.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www_pokemoncenter_com.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www_pokemoncenter_com.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.com.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /dump.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /45.60.131.52.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.com.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /com.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncentercom.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncentercom.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /archive.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.com.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /site.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www_pokemoncenter_com.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /backup.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /archive.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.com.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /site.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncenter.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /dump.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www_pokemoncenter_com.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncentercom.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /database.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /backup.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /com.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /site.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www_pokemoncenter_com.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /com.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /database.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncenter.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /45.60.131.52.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /database.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncentercom.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www_pokemoncenter_com.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /com.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /backup.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /com.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /dump.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /45.60.131.52.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /dump.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /dump.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.com.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /45.60.131.52.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /database.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /dump.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /backup.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www_pokemoncenter_com.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.com.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /database.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncenter.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /dump.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /database.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncenter.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncentercom.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www_pokemoncenter_com.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncentercom.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /backup.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /backup.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /dump.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /dump.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncentercom.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.com.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /site.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /com.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www_pokemoncenter_com.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /archive.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /site.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /45.60.131.52.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /archive.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www_pokemoncenter_com.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.com.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /archive.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.com.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.com.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.com.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /com.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.com.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /dump.tar.gz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncenter.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /database.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /database.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /site.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.com.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /archive.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /45.60.131.52.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncenter.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www_pokemoncenter_com.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncenter.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /archive.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www_pokemoncenter_com.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /backup.zip: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /wwwpokemoncentercom.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.pokemoncenter.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /pokemoncenter.com.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /www.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ HEAD /site.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html: 
++ DFSOGWIY /: Web Server returns a valid response with junk HTTP methods which may cause false positives.
++ DEBUG /: DEBUG HTTP verb may show server debugging information. See: https://docs.microsoft.com/en-us/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications?view=vs-2017: 
++ GET /kboard/: KBoard Forum 0.3.0 and prior have a security problem in forum_edit_post.php, forum_post.php and forum_reply.php.
++ GET /lists/admin/: PHPList pre 2.6.4 contains a number of vulnerabilities including remote administrative access, harvesting user info and more. Default login to admin interface is admin/phplist.
++ GET /splashAdmin.php: Cobalt Qube 3 admin is running. This may have multiple security problems which could not be tested remotely. See: https://seclists.org/bugtraq/2002/Jul/262: 
++ GET /ssdefs/: Siteseed pre 1.4.2 has 'major' security problems.
++ GET /sshome/: Siteseed pre 1.4.2 has 'major' security problems.
++ GET /tiki/: Tiki 1.7.2 and previous allowed restricted Wiki pages to be viewed via a 'URL trick'. Default login/pass could be admin/admin.
++ GET /tiki/tiki-install.php: Tiki 1.7.2 and previous allowed restricted Wiki pages to be viewed via a 'URL trick'. Default login/pass could be admin/admin.
++ GET /scripts/samples/details.idc: NT ODBC Remote Compromise. See: http://attrition.org/security/advisory/individual/rfp/rfp.9901.nt_odbc: 
++ GET /_vti_bin/shtml.exe: Attackers may be able to crash FrontPage by requesting a DOS device, like shtml.exe/aux.htm -- a DoS was not attempted. See: CVE-2000-0709: 
++ GET /~root/: Allowed to browse root's home directory. See: CVE-2001-1013: 
++ GET /cgi-bin/wrap: comes with IRIX 6.2; allows to view directories.
++ GET /forums//admin/config.php: PHP Config file may contain database IDs and passwords.
++ GET /forums//adm/config.php: PHP Config file may contain database IDs and passwords.
++ GET /forums//administrator/config.php: PHP Config file may contain database IDs and passwords.
++ GET /forums/config.php: PHP Config file may contain database IDs and passwords.
++ GET /guestbook/guestbookdat: PHP-Gastebuch 1.60 Beta reveals sensitive information about its configuration.
++ GET /guestbook/pwd: PHP-Gastebuch 1.60 Beta reveals the md5 hash of the admin password.
++ GET /help/: Help directory should not be accessible.
++ GET /hola/admin/cms/htmltags.php?datei=./sec/data.php: hola-cms-1.2.9-10 may reveal the administrator ID and password. See: https://vulners.com/exploitdb/EDB-ID:23027: 
++ GET /global.inc: PHP-Survey's include file should not be available via the web. Configure the web server to ignore .inc files or change this to global.inc.php. See: CVE-2002-0614: 
++ GET /inc/common.load.php: Bookmark4U v1.8.3 include files are not protected and may contain remote source injection by using the 'prefix' variable. See: CVE-2003-1253: 
++ GET /inc/config.php: Bookmark4U v1.8.3 include files are not protected and may contain remote source injection by using the 'prefix' variable. See: CVE-2003-1253: 
++ GET /inc/dbase.php: Bookmark4U v1.8.3 include files are not protected and may contain remote source injection by using the 'prefix' variable. See: CVE-2003-1253: 
++ GET /geeklog/users.php: Geeklog prior to 1.3.8-1sr2 contains a SQL injection vulnerability that lets a remote attacker reset admin password. See: https://vulners.com/osvdb/OSVDB:2703: 
++ GET /gb/index.php?login=true: gBook may allow admin login by setting the value 'login' equal to 'true'. See: CVE-2002-1560: 
++ GET /guestbook/admin.php: Guestbook admin page available without authentication.
++ GET /getaccess: This may be an indication that the server is running getAccess for SSO.
++ GET /cfdocs/expeval/openfile.cfm: Can use to expose the system/server path.
++ GET /tsweb/: Microsoft TSAC found. See: https://web.archive.org/web/20040910030506/http://www.dslwebserver.com/main/fr_index.html?/main/sbs-Terminal-Services-Advanced-Client-Configuration.html: 
++ GET /vgn/performance/TMT: Vignette CMS admin/maintenance script available.
++ GET /vgn/performance/TMT/Report: Vignette CMS admin/maintenance script available.
++ GET /vgn/performance/TMT/Report/XML: Vignette CMS admin/maintenance script available.
++ GET /vgn/performance/TMT/reset: Vignette CMS admin/maintenance script available.
++ GET /vgn/ppstats: Vignette CMS admin/maintenance script available.
++ GET /vgn/previewer: Vignette CMS admin/maintenance script available.
++ GET /vgn/record/previewer: Vignette CMS admin/maintenance script available.
++ GET /vgn/stylepreviewer: Vignette CMS admin/maintenance script available.
++ GET /vgn/vr/Deleting: Vignette CMS admin/maintenance script available.
++ GET /vgn/vr/Editing: Vignette CMS admin/maintenance script available.
++ GET /vgn/vr/Saving: Vignette CMS admin/maintenance script available.
++ GET /vgn/vr/Select: Vignette CMS admin/maintenance script available.
++ GET /scripts/iisadmin/bdir.htr: This default script shows host info, may allow file browsing and buffer a overrun in the Chunked Encoding data transfer mechanism, request /scripts/iisadmin/bdir.htr??c:\<dir>. See: MS02-028: 
++ GET /scripts/iisadmin/ism.dll: Allows you to mount a brute force attack on passwords.
++ GET /scripts/tools/ctss.idc: This CGI allows remote users to view and modify SQL DB contents, server paths, docroot and more.
++ GET /bigconf.cgi: BigIP Configuration CGI.
++ GET /blah_badfile.shtml: Allaire ColdFusion allows JSP source viewed through a vulnerable SSI call.
++ GET /vgn/style: Vignette server may reveal system information through this file. See: CVE-2003-0401: 
++ GET /SiteServer/Admin/commerce/foundation/domain.asp: Displays known domains of which that server is involved. See: CVE-2002-1769: 
++ GET /SiteServer/Admin/commerce/foundation/driver.asp: Displays a list of installed ODBC drivers. See: CVE-2002-1769: 
++ GET /SiteServer/Admin/commerce/foundation/DSN.asp: Displays all DSNs configured for selected ODBC drivers. See: CVE-2002-1769: 
++ GET /SiteServer/admin/findvserver.asp: Gives a list of installed Site Server components. See: CVE-2002-1769: 
++ GET /SiteServer/Admin/knowledge/dsmgr/default.asp: Used to view current search catalog configurations.
++ GET /basilix/mbox-list.php3: BasiliX webmail application prior to 1.1.1 contains a XSS issue in 'message list' function/page.
++ GET /basilix/message-read.php3: BasiliX webmail application prior to 1.1.1 contains a XSS issue in 'read message' function/page.
++ GET /clusterframe.jsp: Macromedia JRun 4 build 61650 remote administration interface is vulnerable to several XSS attacks.
++ GET /IlohaMail/blank.html: IlohaMail 0.8.10 contains a XSS vulnerability. Previous versions contain other non-descript vulnerabilities.
++ GET /bb-dnbd/faxsurvey: This may allow arbitrary command execution.
++ GET /cartcart.cgi: If this is Dansie Shopping Cart 3.0.8 or earlier, it contains a backdoor to allow attackers to execute arbitrary commands.
++ GET /scripts/Carello/Carello.dll: Carello 1.3 may allow commands to be executed on the server by replacing hidden form elements. This could not be tested by Nikto. See: CVE-2001-0614: 
++ GET /scripts/tools/dsnform.exe: Allows creation of ODBC Data Source.
++ GET /scripts/tools/dsnform: Allows creation of ODBC Data Source.
++ GET /SiteServer/Admin/knowledge/dsmgr/users/GroupManager.asp: Microsoft Site Server script used to create, modify, and potentially delete LDAP users and groups. See: https://securitytracker.com/id/1003420: 
++ GET /SiteServer/Admin/knowledge/dsmgr/users/UserManager.asp: Microsoft Site Server used to create, modify, and potentially delete LDAP users and groups. See: https://securitytracker.com/id/1003420: 
++ GET /prd.i/pgen/: Has MS Merchant Server 1.0.
++ GET /readme.eml: Remote server may be infected with the Nimda virus.
++ GET /scripts/httpodbc.dll: Possible IIS backdoor found.
++ GET /scripts/proxy/w3proxy.dll: MSProxy v1.0 installed.
++ GET /SiteServer/admin/: Site Server components admin. Default account may be 'LDAP_Anonymous', pass is 'LdapPassword_1'. See: https://github.com/sullo/advisory-archives/blob/master/RFP2201.txt: 
++ GET /siteseed/: Siteseed pre 1.4.2 have 'major' security problems.
++ GET /pccsmysqladm/incs/dbconnect.inc: This file should not be accessible, as it contains database connectivity information. Upgrade to version 1.2.5 or higher.
++ GET /iisadmin/: Access to /iisadmin should be restricted to localhost or allowed hosts only.
++ GET /PDG_Cart/order.log: PDG Commerce log found. See: http://zodi.com/cgi-bin/shopper.cgi?display=intro&template=Intro/commerce.html: 
++ GET /ows/restricted%2eshow: OWS may allow restricted files to be viewed by replacing a character with its encoded equivalent.
++ GET /view_source.jsp: Resin 2.1.2 view_source.jsp allows any file on the system to be viewed by using \..\ directory traversal. This script may be vulnerable.
++ GET /w-agora/: w-agora pre 4.1.4 may allow a remote user to execute arbitrary PHP scripts via URL includes in include/*.php and user/*.php files. Default account is 'admin' but password set during install.
++ GET /vider.php3: MySimpleNews may allow deleting of news items without authentication. See: CVE-2002-2320: 
++ GET /officescan/cgi/cgiChkMasterPwd.exe: Trend Micro Officescan allows you to skip the login page and access some CGI programs directly. See: https://web.archive.org/web/20030607054822/http://support.microsoft.com/support/exchange/content/whitepapers/owaguide.doc: 
++ GET /pbserver/pbserver.dll: This may contain a buffer overflow. See: MS00-094: 
++ GET /administrator/gallery/uploadimage.php: Mambo PHP Portal/Server 4.0.12 BETA and below may allow upload of any file type simply putting '.jpg' before the real file extension.
++ GET /pafiledb/includes/team/file.php: paFileDB 3.1 and below may allow file upload without authentication.
++ GET /phpEventCalendar/file_upload.php: phpEventCalendar 1.1 and prior are vulnerable to file upload bug.
++ GET /servlet/com.unify.servletexec.UploadServlet: This servlet allows attackers to upload files to the server.
++ GET /scripts/cpshost.dll: Posting acceptor possibly allows you to upload files.
++ GET /upload.asp: An ASP page that allows attackers to upload files to server.
++ GET /uploadn.asp: An ASP page that allows attackers to upload files to server.
++ GET /uploadx.asp: An ASP page that allows attackers to upload files to server.
++ GET /wa.exe: An ASP page that allows attackers to upload files to server.
++ GET /basilix/compose-attach.php3: BasiliX webmail application prior to 1.1.1 contains a non-descript security vulnerability in compose-attach.php3 related to attachment uploads.
++ GET /server/: Possibly Macromedia JRun or CRX WebDAV upload.
++ GET /vgn/ac/data: Vignette CMS admin/maintenance script available.
++ GET /vgn/ac/delete: Vignette CMS admin/maintenance script available.
++ GET /vgn/ac/edit: Vignette CMS admin/maintenance script available.
++ GET /vgn/ac/esave: Vignette CMS admin/maintenance script available.
++ GET /vgn/ac/fsave: Vignette CMS admin/maintenance script available.
++ GET /vgn/ac/index: Vignette CMS admin/maintenance script available.
++ GET /vgn/asp/MetaDataUpdate: Vignette CMS admin/maintenance script available.
++ GET /vgn/asp/previewer: Vignette CMS admin/maintenance script available.
++ GET /vgn/asp/status: Vignette CMS admin/maintenance script available.
++ GET /vgn/asp/style: Vignette CMS admin/maintenance script available.
++ GET /vgn/errors: Vignette CMS admin/maintenance script available.
++ GET /vgn/jsp/controller: Vignette CMS admin/maintenance script available.
++ GET /vgn/jsp/errorpage: Vignette CMS admin/maintenance script available.
++ GET /vgn/jsp/initialize: Vignette CMS admin/maintenance script available.
++ GET /vgn/jsp/jspstatus: Vignette CMS admin/maintenance script available.
++ GET /vgn/jsp/jspstatus56: Vignette CMS admin/maintenance script available.
++ GET /vgn/jsp/metadataupdate: Vignette CMS admin/maintenance script available.
++ GET /vgn/jsp/previewer: Vignette CMS admin/maintenance script available.
++ GET /vgn/jsp/style: Vignette CMS admin/maintenance script available.
++ GET /vgn/legacy/edit: Vignette CMS admin/maintenance script available.
++ GET /vgn/login: Vignette server may allow user enumeration based on the login attempts to this file.
++ GET /admin/config.php: PHP Config file may contain database IDs and passwords.
++ GET /adm/config.php: PHP Config file may contain database IDs and passwords.
++ GET /administrator/config.php: PHP Config file may contain database IDs and passwords.
++ GET /contents.php?new_language=elvish&mode=select: Requesting a file with an invalid language selection from DC Portal may reveal the system path.
++ GET /pw/storemgr.pw: Encrypted ID/Pass for Mercantec's SoftCart. See: CVE-1999-0609: 
++ GET /servlet/com.livesoftware.jrun.plugins.ssi.SSIFilter: Allaire ColdFusion allows JSP source viewed through a vulnerable SSI call.
++ GET /shopa_sessionlist.asp: VP-ASP shopping cart test application is available from the web. This page may give the location of .mdb files which may also be available.
++ GET /simplebbs/users/users.php: Simple BBS 1.0.6 allows user information and passwords to be viewed remotely. See: https://www.webhostingtalk.nl/bugtraq-mailing-lijst/23898-simplebbs-1-0-6-default-permissions-vuln.html: 
++ GET /typo3conf/: This may contain sensitive TYPO3 files.
++ GET /cms/typo3conf/: This may contain sensitive TYPO3 files.
++ GET /site/typo3conf/: This may contain sensitive TYPO3 files.
++ GET /typo/typo3conf/: This may contain sensitive TYPO3 files.
++ GET /typo3/typo3conf/: This may contain sensitive TYPO3 files.
++ GET /typo3conf/localconf.php: TYPO3 config file found.
++ GET /cms/typo3conf/localconf.php: TYPO3 config file found.
++ GET /site/typo3conf/localconf.php: TYPO3 config file found.
++ GET /typo/typo3conf/localconf.php: TYPO3 config file found.
++ GET /typo3/typo3conf/localconf.php: TYPO3 config file found.
++ GET /vgn/license: Vignette server license file found. See: CVE-2003-0403: 
++ GET /webcart/carts/: This may allow attackers to read credit card data. Reconfigure to make this dir not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html: 
++ GET /webcart/config/: This may allow attackers to read credit card data. Reconfigure to make this dir not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html: 
++ GET /webcart/orders/: This may allow attackers to read credit card data. Reconfigure to make this dir not accessible via the web. See: https://packetstormsecurity.com/files/32406/xmas.txt.html: 
++ GET /ws_ftp.ini: Can contain saved passwords for FTP sites.
++ GET /WS_FTP.ini: Can contain saved passwords for FTP sites.
++ GET /_mem_bin/auoconfig.asp: Displays the default AUO (LDAP) schema, including host and port.
++ GET /SiteServer/Admin/knowledge/persmbr/vs.asp: Expose various LDAP service and backend configuration parameters. See: https://vulners.com/osvdb/OSVDB:17659: 
++ GET /SiteServer/Admin/knowledge/persmbr/VsLsLpRd.asp: Expose various LDAP service and backend configuration parameters. See: https://vulners.com/osvdb/OSVDB:17661: 
++ GET /SiteServer/Admin/knowledge/persmbr/VsPrAuoEd.asp: Expose various LDAP service and backend configuration parameters. See: https://vulners.com/osvdb/OSVDB:17662: 
++ GET /SiteServer/Admin/knowledge/persmbr/VsTmPr.asp: Expose various LDAP service and backend configuration parameters. See: https://vulners.com/osvdb/OSVDB:17660: 
++ GET /tvcs/getservers.exe?action=selects1: Following steps 2-4 of this page may reveal a zip file that contains passwords and system details.
++ GET /whatever.htr: May reveal physical path. htr files may also be vulnerable to an off-by-one overflow that allows remote command execution. See: MS02-018: 
++ GET /nsn/fdir.bas:ShowVolume: You can use ShowVolume and ShowDirectory directly on the Novell server (NW5.1) to view the filesystem without having to log in.
++ GET /webmail/blank.html: IlohaMail 0.8.10 contains an XSS vulnerability. Previous versions contain other non-descript vulnerabilities.
++ GET /jamdb/: JamDB pre 0.9.2 mp3.php and image.php can allow user to read arbitrary file out of docroot.
++ GET /cgi/cgiproc?: It may be possible to crash Nortel Contivity VxWorks by requesting '/cgi/cgiproc?$' (not attempted!). Upgrade to version 2.60 or later. See: CVE-2000-0063: 
++ GET /servlet/SchedulerTransfer: PeopleSoft SchedulerTransfer servlet found, which may allow remote command execution. See: CVE-2003-0104: 
++ GET /servlet/sunexamples.BBoardServlet: This default servlet lets attackers execute arbitrary commands.
++ GET /servlets/SchedulerTransfer: PeopleSoft SchedulerTransfer servlet found, which may allow remote command execution. See: CVE-2003-0104: 
++ GET /perl/-e%20print%20Hello: The Perl interpreter on the Novell system may allow any command to be executed. See: BID-5520: 
++ GET /vgn/legacy/save: Vignette Legacy Tool may be unprotected. To access this resource, set a cookie called 'vgn_creds' with any value.
++ GET /IDSWebApp/IDSjsp/Login.jsp: Tivoli Directory Server Web Administration.
++ GET /quikstore.cfg: Shopping cart config file, http://www.quikstore.com/, http://www.mindsec.com/advisories/post2.txt. See: CVE-1999-0607: 
++ GET /quikstore.cgi: A shopping cart.
++ GET /securecontrolpanel/: Web Server Control Panel.
++ GET /siteminder: This may be an indication that the server is running Siteminder for SSO.
++ GET /webmail/: Web based mail package installed.
++ GET /_cti_pvt/: FrontPage directory found.
++ GET /smg_Smxcfg30.exe?vcc=3560121183d3: This may be a Trend Micro Officescan 'backdoor'.
++ GET /nsn/..%5Cutil/attrib.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cutil/chkvol.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cutil/copy.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cutil/del.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cutil/dir.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cutil/dsbrowse.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cutil/glist.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cutil/lancard.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cutil/md.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cutil/rd.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cutil/ren.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cutil/send.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cutil/set.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cutil/slist.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cutil/type.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cutil/userlist.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cweb/env.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cweb/fdir.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cwebdemo/env.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /nsn/..%5Cwebdemo/fdir.bas: Netbase util access is possible which means that several utility scripts might be run (including directory listings, NDS tree enumeration and running .bas files on server.
++ GET /upd/: WASD Server can allow directory listings by requesting /upd/directory/. Upgrade to a later version and secure according to the documents on the WASD web site.
++ GET /CVS/Entries: CVS Entries file may contain directory listing information.
++ GET /3rdparty/phpMyAdmin/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536: 
++ GET /phpMyAdmin/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536: 
++ GET /3rdparty/phpmyadmin/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536: 
++ GET /phpmyadmin/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536: 
++ GET /pma/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536: 
++ GET /.tools/phpMyAdmin/current/db_details_importdocsql.php?submit_show=true&do=import&docpath=../: phpMyAdmin allows directory listings remotely. Upgrade to version 2.5.3 or higher. See: https://seclists.org/fulldisclosure/2003/Jun/536: 
++ GET /USER/CONFIG.AP: MIPCD configuration information. MIPCD should not have the web interface enabled.
++ GET /admin-serv/config/admpw: This file contains the encrypted Netscape admin password. It should not be accessible via the web.
++ GET /cgi-bin/cgi_process: WASD reveals a lot of system information in this script. It should be removed.
++ GET /ht_root/wwwroot/-/local/httpd$map.conf: WASD reveals the http configuration file. Upgrade to a later version and secure according to the documents on the WASD web site.
++ GET /local/httpd$map.conf: WASD reveals the http configuration file. Upgrade to a later version and secure according to the documents on the WASD web site.
++ GET /tree: WASD Server reveals the entire web root structure and files via this URL. Upgrade to a later version and secure according to the documents on the WASD web site.
++ GET /examples/servlet/AUX: Apache Tomcat versions below 4.1 may be vulnerable to DoS by repeatedly requesting this file.
++ GET /Config1.htm: This may be a D-Link. Some devices have a DoS condition if an oversized POST request is sent. This DoS was not tested. See: https://raw.githubusercontent.com/sullo/advisory-archives/master/phenoelit.de_dp-300.txt: 
++ GET /contents/extensions/asp/1: The IIS system may be vulnerable to a DOS. See: MS02-018: 
++ GET /WebAdmin.dll?View=Logon: Some versions of WebAdmin are vulnerable to a remote DoS (not tested). See: CVE-2005-1247: 
++ GET /cgi-win/cgitest.exe: This CGI may allow the server to be crashed remotely. See: CVE-2002-0128: 
++ GET /cgi-shl/win-c-sample.exe: win-c-sample.exe has a buffer overflow.

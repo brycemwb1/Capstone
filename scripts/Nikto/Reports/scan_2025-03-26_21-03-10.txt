@@ -1,0 +1,43 @@
+- Nikto v2.5.0/
++ Target Host: foxpadcustoms.com
++ Target Port: 443
++ GET /: Retrieved powered-by header: Shopify.
++ GET /: Drupal Link header found with value: <https://cdn.shopify.com>; rel="preconnect", <https://cdn.shopify.com>; rel="preconnect"; crossorigin. See: https://www.drupal.org/: 
++ GET /: Uncommon header 'x-storefront-renderer-rendered' found, with contents: 1.
++ GET /: Uncommon header 'powered-by' found, with contents: Shopify.
++ GET /: Uncommon header 'x-request-id' found, with contents: 71c72b70-5df0-4e83-a86f-0d29754aefcb-1743033937.
++ GET /: Uncommon header 'shopify-edge-ip' found, with contents: 23.227.38.68.
++ GET /: Uncommon header 'x-sorting-hat-shopid' found, with contents: 552960051.
++ GET /: Uncommon header 'server-timing' found, with multiple values: (processing;dur=13;desc="gc:1", db;dur=3, db_async;dur=1.566, asn;desc="855", edge;desc="EWR", country;desc="CA", theme;desc="37304270899", pageType;desc="index", servedBy;desc="5psq", requestID;desc="71c72b70-5df0-4e83-a86f-0d29754aefcb-1743033937",cfRequestDuration;dur=60.999870,).
++ GET /: Uncommon header 'x-dc' found, with contents: gcp-us-east1,gcp-us-east1,gcp-us-east1.
++ GET /: Uncommon header 'x-sorting-hat-podid' found, with contents: 69.
++ GET /: Uncommon header 'x-shopid' found, with contents: 552960051.
++ GET /: Uncommon header 'x-shardid' found, with contents: 69.
++ GET /: An alt-svc header was found which is advertising HTTP/3. The endpoint is: ':443'. Nikto cannot test HTTP/3 over QUIC. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/alt-svc: 
++ GET /: Cookie localization created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /: Cookie localization created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /: Cookie cart_currency created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /: Cookie cart_currency created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /: Cookie _shopify_y created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /: Cookie _shopify_y created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /: Cookie _shopify_s created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /: Cookie _shopify_s created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /: Cookie _tracking_consent created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /: Cookie _tracking_consent created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /: Cookie ; domain created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /: Cookie _landing_page created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET */collections/*filter*&*filter*/: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/: 
++ GET /552960051/orders/: Uncommon header 'x-liquid-rendered-at' found, with contents: 2025-03-27T00:06:41.752085237Z.
++ GET /552960051/orders/: Uncommon header 'reporting-endpoints' found, with contents: shopify-csp="/csp-report?source%5Baction%5D=not_found&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=storefront_section%2Fshop&source%5Bsection%5D=storefront&source%5Buuid%5D=854a3b4f-b8ab-4043-8fba-18ab48b6f451-1743034001".
++ GET /robots.txt: Entry '/search/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file: 
++ GET /apple-app-site-association/: Uncommon header 'content-disposition' found, with contents: attachment; filename=apple-app-site-association.
++ GET /apple-app-site-association/: Uncommon header 'content-transfer-encoding' found, with contents: binary.
++ GET /robots.txt: Entry '/apple-app-site-association/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file: 
++ GET /robots.txt: Entry '/cart/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file: 
++ GET /cdn/wpm/*.js: Retrieved access-control-allow-origin header: *.
++ GET /checkout/: Cookie cart created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /checkout/: Cookie cart created without the httponly flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /checkout/: Cookie cart_sig created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ GET /robots.txt: contains 128 entries which should be manually viewed. See: https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt: 
++ GET /: The Content-Encoding header is set to "deflate" which may mean that the server is vulnerable to the BREACH attack. See: http://breachattack.com/: 
++ GET Multiple index files found: /index.shtml, /index.asp, /index.php7, /index.cgi, /index.jsp, /index.aspx, /index.php, /index.do, /index.xml, /index.html, /index.jhtml, /index.php3, /index.php5, /index.php4, /index.htm, /index.pl, /index.cfm.

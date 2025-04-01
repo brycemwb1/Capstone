@@ -2,8 +2,8 @@ import subprocess
 
 # List of script paths
 scripts = [
-    "/home/bryce/Desktop/CapstoneProject/scripts/Clamscan/clamscan7.py",
-    "/home/bryce/Desktop/CapstoneProject/scripts/Nikto/NiktoScan10.py",
+    "/home/bryce/Desktop/CapstoneProject/scripts/Clamscan/clamscan9.py",
+    "/home/bryce/Desktop/CapstoneProject/scripts/Nikto/NiktoScan12.py",
     "/home/bryce/Desktop/CapstoneProject/scripts/Nmap/Nmap9.py",
     "/home/bryce/Desktop/CapstoneProject/scripts/Wapiti/wapiti10.py"
 ]
